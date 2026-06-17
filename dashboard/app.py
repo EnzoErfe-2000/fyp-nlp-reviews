@@ -45,8 +45,8 @@ def load_tokenizer(tokenizer):
         return pickle.load(f)
 
 
-MODEL_PATH = "hbgru_glove_v2.keras"
-TOKENIZER_PATH = "tokenizer.pkl"
+MODEL_PATH = "dashboard/hbgru_glove_v2.keras"
+TOKENIZER_PATH = "dashboard/tokenizer.pkl"
 model = load_model(MODEL_PATH)
 tokenizer = load_tokenizer(TOKENIZER_PATH)
 
